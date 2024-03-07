@@ -5,5 +5,5 @@ urlpatterns = [
 
     path('',views.home , name= "home"),
     path('room/<str:pk>/', views.room , name= "room"),
-    path('room_form',views.createRoom ,name = 'room_form')
+    path('create-room/',views.createRoom ,name = 'create-room')
 ]
